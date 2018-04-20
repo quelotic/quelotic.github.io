@@ -170,10 +170,9 @@ function scroll() {
 function initialize()
 {
 var mapProp = {
-  //center:new google.maps.LatLng(51.508742,-0.120850),
   center:new google.maps.LatLng(38.239293,21.738337),
   zoom:5,
-  mapTypeId:google.maps.MapTypeId.ROADMAP,
+  //mapTypeId:google.maps.MapTypeId.ROADMAP,
   disableDefaultUI: true,
   scrollwheel: false
   };
@@ -182,5 +181,3 @@ var map=new google.maps.Map(document.getElementById("googleMap")
 }
 
 google.maps.event.addDomListener(window, 'load', initialize);
-
-
