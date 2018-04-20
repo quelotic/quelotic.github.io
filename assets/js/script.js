@@ -171,7 +171,7 @@ function initialize()
 {
 var mapProp = {
   center:new google.maps.LatLng(38.239293,21.738337),
-  zoom:16,
+  zoom:18,
   mapTypeId:google.maps.MapTypeId.ROADMAP,
   disableDefaultUI: true,
   scrollwheel: false
